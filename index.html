@@ -123,3 +123,191 @@ footer{
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cool Games | Minecraft Add-ons</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#090b18;color:#fff;
+ font-family:Tahoma,Arial,sans-serif;
+}
+header{
+ text-align:center;padding:35px 15px;
+ background:linear-gradient(135deg,#25105b,#102b59);
+ border-bottom:2px solid #8b5cf6;
+}
+header h1{font-size:34px;color:#c4a5ff;margin:5px}
+header p{color:#ddd}
+nav{
+ display:flex;justify-content:center;gap:18px;
+ padding:15px;background:#11152a;flex-wrap:wrap;
+}
+nav a{color:#c4a5ff;text-decoration:none}
+.container{max-width:1050px;margin:auto;padding:20px}
+h2{color:#b99aff}
+.search{
+ width:100%;padding:15px;border-radius:12px;
+ border:1px solid #7653ca;background:#151a31;
+ color:white;font-size:16px;margin:15px 0;
+}
+.categories{display:flex;gap:9px;flex-wrap:wrap;margin:15px 0}
+.categories button{
+ border:1px solid #7653ca;background:#171b35;
+ color:white;padding:10px 14px;border-radius:20px;
+ cursor:pointer;
+}
+.categories button.active,.categories button:hover{
+ background:#7045cf;
+}
+.cards{
+ display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+ gap:15px;
+}
+.card{
+ background:#151a30;border:1px solid #33385c;
+ border-radius:15px;overflow:hidden;padding:17px;
+}
+.card .picture{
+ height:120px;border-radius:10px;
+ background:linear-gradient(135deg,#38216e,#174d66);
+ display:flex;align-items:center;justify-content:center;
+ font-size:48px;margin-bottom:12px;
+}
+.card h3{color:#c4a5ff}
+.card p{color:#ccc;line-height:1.9;font-size:14px}
+.tag{color:#9e8bff;font-size:12px}
+.card a{
+ display:inline-block;background:#7045cf;color:white;
+ padding:10px 14px;border-radius:9px;
+ text-decoration:none;font-size:13px;margin-top:8px;
+}
+footer{text-align:center;color:#999;padding:25px}
+.empty{text-align:center;color:#bbb;display:none;padding:30px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>🎮 COOL GAMES</h1>
+<p>دنیای بازی‌ها و ماجراجویی‌های جدید</p>
+</header>
+
+<nav>
+<a href="#minecraft">مودهای ماینکرافت</a>
+<a href="#about">درباره ما</a>
+</nav>
+
+<main class="container" id="minecraft">
+<h2>⛏️ مودهای Minecraft Bedrock</h2>
+<p>مجموعه افزونه‌های جذاب برای نسخه بدراک، مخصوص موبایل و تبلت</p>
+
+<input class="search" id="search" placeholder="🔍 اسم مود یا دسته‌بندی رو جست‌وجو کن...">
+
+<div class="categories">
+<button class="active" data-cat="all">همه</button>
+<button data-cat="creatures">👾 موجودات</button>
+<button data-cat="fantasy">🐉 فانتزی</button>
+<button data-cat="nature">🌳 طبیعت</button>
+<button data-cat="buildings">🏠 سازه‌ها</button>
+<button data-cat="vehicles">🚗 وسایل نقلیه</button>
+<button data-cat="horror">👻 ترسناک</button>
+</div>
+
+<div class="cards" id="cards">
+
+<article class="card" data-cat="creatures">
+<div class="picture">👾</div>
+<span class="tag">موجودات و هیولاها</span>
+<h3>دنیای موجودات</h3>
+<p>افزونه‌ای با موجودات تازه برای تجربه ماجراجویی‌های متفاوت در ماینکرافت.</p>
+<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
+</article>
+
+<article class="card" data-cat="fantasy">
+<div class="picture">🐉</div>
+<span class="tag">اژدها و فانتزی</span>
+<h3>دنیای اژدهاها</h3>
+<p>ماجراجویی در دنیایی فانتزی با ایده‌هایی درباره اژدها و موجودات افسانه‌ای.</p>
+<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
+</article>
+
+<article class="card" data-cat="nature">
+<div class="picture">🌲</div>
+<span class="tag">طبیعت و محیط‌ها</span>
+<h3>طبیعت شگفت‌انگیز</h3>
+<p>ایده‌هایی برای تغییر محیط، طبیعت و زیست‌بوم‌های بازی.</p>
+<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
+</article>
+
+<article class="card" data-cat="buildings">
+<div class="picture">🏰</div>
+<span class="tag">سازه‌ها و ساختمان‌ها</span>
+<h3>شهرهای جدید</h3>
+<p>ساختمان‌ها و سازه‌های آماده برای ساخت دنیایی متفاوت.</p>
+<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
+</article>
+
+<article class="card" data-cat="vehicles">
+<div class="picture">🚙</div>
+<span class="tag">وسایل نقلیه</span>
+<h3>ماشین‌های جدید</h3>
+<p>ایده‌هایی برای اضافه‌کردن وسایل نقلیه به دنیای ماینکرافت.</p>
+<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
+</article>
+
+<article class="card" data-cat="horror">
+<div class="picture">👻</div>
+<span class="tag">ترسناک</span>
+<h3>شب‌های ترسناک</h3>
+<p>تجربه‌ای هیجان‌انگیز با فضای تاریک و موجودات ترسناک.</p>
+<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
+</article>
+
+</div>
+<p class="empty" id="empty">چیزی پیدا نشد! 😕</p>
+</main>
+
+<section class="container" id="about">
+<h2>💜 درباره Cool Games</h2>
+<p>ما در Cool Games بازی‌ها و افزونه‌های جذاب را معرفی می‌کنیم. هدف ما پیدا کردن تجربه‌های تازه برای گیمرهاست!</p>
+</section>
+
+<footer>
+<p>© Cool Games | ساخته‌شده برای گیمرها 🎮</p>
+</footer>
+
+<script>
+const search=document.getElementById('search');
+const cards=[...document.querySelectorAll('.card')];
+const buttons=[...document.querySelectorAll('.categories button')];
+let category='all';
+
+function filterCards(){
+ const q=search.value.trim().toLowerCase();
+ let count=0;
+ cards.forEach(card=>{
+  const matchCategory=category==='all'||card.dataset.cat===category;
+  const matchText=card.innerText.toLowerCase().includes(q);
+  const show=matchCategory&&matchText;
+  card.style.display=show?'block':'none';
+  if(show)count++;
+ });
+ document.getElementById('empty').style.display=count?'none':'block';
+}
+buttons.forEach(btn=>{
+ btn.addEventListener('click',()=>{
+  category=btn.dataset.cat;
+  buttons.forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  filterCards();
+ });
+});
+search.addEventListener('input',filterCards);
+</script>
+
+</body>
+</html>
