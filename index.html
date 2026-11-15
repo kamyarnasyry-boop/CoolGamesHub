@@ -311,3 +311,234 @@ search.addEventListener('input',filterCards);
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cool Games</title>
+<style>
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{
+ margin:0;background:#080817;color:#fff;
+ font-family:Tahoma,Arial,sans-serif;
+}
+header{
+ min-height:430px;padding:70px 20px 55px;
+ text-align:center;
+ display:flex;flex-direction:column;
+ align-items:center;justify-content:center;
+ background:
+ radial-gradient(circle at 20% 30%,#5425a9 0,transparent 35%),
+ radial-gradient(circle at 80% 70%,#123f91 0,transparent 40%),
+ linear-gradient(135deg,#100b29,#080817);
+ border-bottom:1px solid #8055ef;
+}
+.logo{
+ font-size:42px;font-weight:bold;color:#d7c4ff;
+ text-shadow:0 0 12px #8b5cf6,0 0 30px #6633cc;
+}
+header p{color:#ddd;line-height:2}
+.main-button{
+ display:inline-block;margin-top:18px;
+ padding:14px 25px;border-radius:12px;
+ background:linear-gradient(90deg,#763de2,#2765d8);
+ color:white;text-decoration:none;font-weight:bold;
+ box-shadow:0 0 22px #6336c9;
+}
+nav{
+ position:sticky;top:0;z-index:10;
+ display:flex;justify-content:center;gap:25px;
+ padding:16px;background:#111126;
+ border-bottom:1px solid #37305c;
+}
+nav a{color:#d2bdff;text-decoration:none;font-size:14px}
+.container{max-width:1050px;margin:auto;padding:30px 18px}
+h2{color:#c4a5ff;text-shadow:0 0 12px #7546cc}
+.intro{color:#bbb;line-height:2}
+.cards{
+ display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+ gap:17px;margin-top:20px;
+}
+.card{
+ background:linear-gradient(145deg,#191932,#101020);
+ border:1px solid #39305e;border-radius:16px;
+ padding:18px;transition:.2s;
+}
+.card:hover{
+ transform:translateY(-5px);
+ border-color:#a78bfa;
+ box-shadow:0 0 20px #5533a455;
+}
+.picture{
+ height:130px;border-radius:12px;
+ display:flex;align-items:center;justify-content:center;
+ font-size:55px;
+ background:linear-gradient(135deg,#35206a,#173e70);
+ margin-bottom:15px;
+}
+.card h3{color:#d1baff}
+.card p{color:#c5c5d4;font-size:14px;line-height:2}
+.tag{
+ display:inline-block;color:#c4a5ff;
+ background:#34245b;padding:6px 10px;
+ border-radius:20px;font-size:11px;
+}
+.detail-button{
+ display:inline-block;margin-top:10px;
+ padding:10px 14px;background:#6540b7;
+ color:white;text-decoration:none;border-radius:9px;
+ font-size:13px;
+}
+.detail{
+ margin-top:28px;padding:22px;
+ border:1px solid #42336e;border-radius:15px;
+ background:#121225;line-height:2;
+}
+.detail h3{color:#c4a5ff}
+.status{color:#ffcf79;font-size:13px}
+.divider{height:1px;background:#33294f;margin:35px 0}
+footer{
+ text-align:center;padding:30px;color:#999;
+ background:#101020;border-top:1px solid #33294f;
+}
+</style>
+</head>
+
+<body>
+
+<header id="home">
+<div class="logo">🎮 COOL GAMES</div>
+<h1>دنیای بازی‌ها و ماجراجویی‌ها</h1>
+<p>بازی‌های جذاب Roblox و افزونه‌های هیجان‌انگیز Minecraft</p>
+<a class="main-button" href="#minecraft-addons">
+🚀 شروع ماجراجویی
+</a>
+</header>
+
+<nav>
+<a href="#home">صفحه اصلی</a>
+<a href="#roblox">Roblox</a>
+<a href="#minecraft-addons">Minecraft</a>
+<a href="#about">درباره ما</a>
+</nav>
+
+<main class="container">
+
+<section id="roblox">
+<h2>🎲 دنیای Roblox</h2>
+<p class="intro">بازی‌های جذاب روبلاکس را کشف کن و ماجراجویی تازه‌ای شروع کن!</p>
+
+<div class="cards">
+<article class="card">
+<div class="picture">⚔️</div>
+<span class="tag">اکشن و رقابتی</span>
+<h3>Roblox Rivals</h3>
+<p>در نبردهای سریع و رقابتی مهارت خودت را امتحان کن.</p>
+</article>
+
+<article class="card">
+<div class="picture">🏡</div>
+<span class="tag">نقش‌آفرینی</span>
+<h3>Brookhaven</h3>
+<p>در یک شهر مجازی زندگی کن، خانه بساز و با دوستانت بازی کن.</p>
+</article>
+
+<article class="card">
+<div class="picture">👗</div>
+<span class="tag">سرگرمی و مد</span>
+<h3>Dress to Impress</h3>
+<p>با لباس‌ها و استایل‌های مختلف در مسابقه‌های جذاب شرکت کن.</p>
+</article>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<section id="minecraft-addons">
+<h2>⛏️ افزونه‌های Minecraft Bedrock</h2>
+<p class="intro">
+اینجا مجموعه‌ای از افزونه‌های مخصوص نسخه بدراک را معرفی می‌کنیم.
+برای هر افزونه، توضیحات و اطلاعات سازگاری جداگانه قرار می‌گیرد.
+</p>
+
+<div class="cards">
+
+<article class="card">
+<div class="picture">🐉</div>
+<span class="tag">اژدها و فانتزی</span>
+<h3>افزونه دنیای اژدها</h3>
+<p>معرفی افزونه‌های اژدها، موجودات افسانه‌ای و ماجراجویی فانتزی.</p>
+<a class="detail-button" href="#dragon">مشاهده جزئیات</a>
+</article>
+
+<article class="card">
+<div class="picture">👾</div>
+<span class="tag">موجودات و حیوانات</span>
+<h3>افزونه موجودات جدید</h3>
+<p>معرفی افزونه‌هایی با حیوانات و موجودات تازه در بازی.</p>
+<a class="detail-button" href="#creatures">مشاهده جزئیات</a>
+</article>
+
+<article class="card">
+<div class="picture">🌳</div>
+<span class="tag">طبیعت و محیط</span>
+<h3>افزونه طبیعت</h3>
+<p>محیط‌ها، گیاهان و زیست‌بوم‌های تازه برای دنیای بازی.</p>
+<a class="detail-button" href="#nature">مشاهده جزئیات</a>
+</article>
+
+<article class="card">
+<div class="picture">🏰</div>
+<span class="tag">ساختمان و سازه</span>
+<h3>افزونه سازه‌های جدید</h3>
+<p>ساختمان‌ها و سازه‌های تازه برای ساخت دنیای دلخواهت.</p>
+<a class="detail-button" href="#buildings">مشاهده جزئیات</a>
+</article>
+
+</div>
+
+<div class="detail" id="dragon">
+<h3>🐉 افزونه‌های اژدها و فانتزی</h3>
+<p>در این قسمت اطلاعات افزونه‌های واقعی اژدها، تصاویر و لینک صفحه سازنده قرار می‌گیرد.</p>
+<p class="status">⚠️ سازگاری با نسخه 1.26.67 هنوز تأیید نشده است.</p>
+</div>
+
+<div class="detail" id="creatures">
+<h3>👾 افزونه‌های موجودات</h3>
+<p>در این قسمت افزونه‌های حیوانات، هیولاها و موجودات جدید معرفی می‌شوند.</p>
+<p class="status">⚠️ سازگاری با نسخه 1.26.67 هنوز تأیید نشده است.</p>
+</div>
+
+<div class="detail" id="nature">
+<h3>🌳 افزونه‌های طبیعت</h3>
+<p>در این قسمت افزونه‌های جنگل، گیاهان و زیست‌بوم‌های جدید قرار می‌گیرند.</p>
+<p class="status">⚠️ سازگاری با نسخه 1.26.67 هنوز تأیید نشده است.</p>
+</div>
+
+<div class="detail" id="buildings">
+<h3>🏰 افزونه‌های ساختمان و سازه</h3>
+<p>در این قسمت افزونه‌های خانه، شهر و ساختمان‌های آماده معرفی می‌شوند.</p>
+<p class="status">⚠️ سازگاری با نسخه 1.26.67 هنوز تأیید نشده است.</p>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<section id="about">
+<h2>💜 درباره Cool Games</h2>
+<p class="intro">
+Cool Games جایی برای کشف بازی‌های جذاب Roblox و افزونه‌های Minecraft Bedrock است.
+هدف ما معرفی تجربه‌های تازه و سرگرم‌کننده برای گیمرهاست.
+</p>
+</section>
+
+</main>
+
+<footer>
+<p>© COOL GAMES | ساخته‌شده برای گیمرها 🎮</p>
+</footer>
+
+</body>
+</html>
+
