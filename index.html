@@ -1,544 +1,568 @@
+bottom:15px;
+
 
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cool Games | دنیای بازی‌ها</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090b18">
+<meta name="description" content="Cool Games؛ معرفی بازی‌های Roblox و مودهای Minecraft Bedrock">
+<title>COOL GAMES | دنیای بازی‌ها</title>
+
 <style>
+:root{
+ --bg:#080a16;
+ --panel:#11152a;
+ --panel2:#171d38;
+ --line:#293052;
+ --text:#f4f6ff;
+ --muted:#aab2d2;
+ --cyan:#55e7ff;
+ --purple:#a78bfa;
+ --pink:#ff62c0;
+}
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{
  margin:0;
- background:#090914;
- color:white;
+ background:radial-gradient(ellipse at 80% 0%,#1a1b46 0,transparent 42%),var(--bg);
+ color:var(--text);
  font-family:Tahoma,Arial,sans-serif;
+ line-height:1.8;
 }
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit}
+.wrap{width:min(1120px,92%);margin:auto}
 header{
- padding:22px 16px;
- background:#111126;
- border-bottom:1px solid #673bff;
- display:flex;
- justify-content:space-between;
- align-items:center;
-}
-.logo{font-size:23px;font-weight:bold;color:#a98aff}
-nav a{color:white;text-decoration:none;margin:5px;font-size:12px}
-.hero{
- text-align:center;
- padding:75px 15px;
- background:radial-gradient(ellipse at top,#38216c,#111126 65%,#090914);
-}
-.hero h1{font-size:42px;color:#b69aff;margin:0 0 15px}
-.hero p{color:#ccc;line-height:2}
-.btn{
- display:inline-block;
- background:linear-gradient(90deg,#673bff,#a43bff);
- padding:13px 24px;
- border-radius:12px;
- color:white;text-decoration:none;
- margin-top:15px;
-}
-section{padding:25px 16px}
-h2{color:#b69aff}
-.cards{
- display:grid;
- grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
- gap:15px;
-}
-.card{
- background:#17172b;
- border:1px solid #343052;
- border-radius:15px;
- padding:20px;
-}
-.card .emoji{font-size:38px}
-.card p{color:#bbb;line-height:1.9;font-size:14px}
-.tag{color:#a98aff;font-size:12px}
-footer{
- text-align:center;
- padding:30px;
- color:#999;
- border-top:1px solid #29243e;
-}
-</style>
-</head>
-<body>
-
-<header>
- <div class="logo">COOL GAMES 🎮</div>
- <nav>
-  <a href="#games">بازی‌ها</a>
-  <a href="#mods">مودها</a>
- </nav>
-</header>
-
-<div class="hero">
- <h1>COOL GAMES</h1>
- <p>به دنیای بازی‌ها خوش اومدی!</p>
- <p>بازی‌های جذاب، مودهای خفن و ماجراجویی‌های جدید</p>
- <a class="btn" href="#games">شروع ماجراجویی 🚀</a>
-</div>
-
-<section id="games">
- <h2>🎮 بازی‌های منتخب</h2>
- <div class="cards">
-  <div class="card">
-   <div class="emoji">🟥</div>
-   <h3>Roblox</h3>
-   <span class="tag">GAME COLLECTION</span>
-   <p>دنیایی از بازی‌های متنوع و ماجراجویی‌های روبلاکس.</p>
-  </div>
-  <div class="card">
-   <div class="emoji">⚔️</div>
-   <h3>Survive Your Area</h3>
-   <span class="tag">GAME SPOTLIGHT</span>
-   <p>با این بازی جذاب روبلاکس آشنا شو و ماجراجویی کن.</p>
-  </div>
- </div>
-</section>
-
-<section id="mods">
- <h2>⛏️ مودهای Minecraft</h2>
- <div class="cards">
-  <div class="card">
-   <div class="emoji">🐉</div>
-   <h3>Dragon Mods</h3>
-   <p>ماجراجویی در دنیایی پر از اژدها.</p>
-   <span class="tag">MINECRAFT MODS</span>
-  </div>
-  <div class="card">
-   <div class="emoji">🧟</div>
-   <h3>Monster Mods</h3>
-   <p>موجودات و چالش‌های جدید در ماینکرافت.</p>
-   <span class="tag">MINECRAFT MODS</span>
-  </div>
- </div>
-</section>
-
-<footer>
- <h3>COOL GAMES</h3>
- <p>PLAY • DISCOVER • EXPLORE</p>
- <p>© 2026 Cool Games</p>
-</footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cool Games | Minecraft Add-ons</title>
-<style>
-*{box-sizing:border-box}
-body{
- margin:0;background:#090b18;color:#fff;
- font-family:Tahoma,Arial,sans-serif;
-}
-header{
- text-align:center;padding:35px 15px;
- background:linear-gradient(135deg,#25105b,#102b59);
- border-bottom:2px solid #8b5cf6;
-}
-header h1{font-size:34px;color:#c4a5ff;margin:5px}
-header p{color:#ddd}
-nav{
- display:flex;justify-content:center;gap:18px;
- padding:15px;background:#11152a;flex-wrap:wrap;
-}
-nav a{color:#c4a5ff;text-decoration:none}
-.container{max-width:1050px;margin:auto;padding:20px}
-h2{color:#b99aff}
-.search{
- width:100%;padding:15px;border-radius:12px;
- border:1px solid #7653ca;background:#151a31;
- color:white;font-size:16px;margin:15px 0;
-}
-.categories{display:flex;gap:9px;flex-wrap:wrap;margin:15px 0}
-.categories button{
- border:1px solid #7653ca;background:#171b35;
- color:white;padding:10px 14px;border-radius:20px;
- cursor:pointer;
-}
-.categories button.active,.categories button:hover{
- background:#7045cf;
-}
-.cards{
- display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
- gap:15px;
-}
-.card{
- background:#151a30;border:1px solid #33385c;
- border-radius:15px;overflow:hidden;padding:17px;
-}
-.card .picture{
- height:120px;border-radius:10px;
- background:linear-gradient(135deg,#38216e,#174d66);
- display:flex;align-items:center;justify-content:center;
- font-size:48px;margin-bottom:12px;
-}
-.card h3{color:#c4a5ff}
-.card p{color:#ccc;line-height:1.9;font-size:14px}
-.tag{color:#9e8bff;font-size:12px}
-.card a{
- display:inline-block;background:#7045cf;color:white;
- padding:10px 14px;border-radius:9px;
- text-decoration:none;font-size:13px;margin-top:8px;
-}
-footer{text-align:center;color:#999;padding:25px}
-.empty{text-align:center;color:#bbb;display:none;padding:30px}
-</style>
-</head>
-<body>
-
-<header>
-<h1>🎮 COOL GAMES</h1>
-<p>دنیای بازی‌ها و ماجراجویی‌های جدید</p>
-</header>
-
-<nav>
-<a href="#minecraft">مودهای ماینکرافت</a>
-<a href="#about">درباره ما</a>
-</nav>
-
-<main class="container" id="minecraft">
-<h2>⛏️ مودهای Minecraft Bedrock</h2>
-<p>مجموعه افزونه‌های جذاب برای نسخه بدراک، مخصوص موبایل و تبلت</p>
-
-<input class="search" id="search" placeholder="🔍 اسم مود یا دسته‌بندی رو جست‌وجو کن...">
-
-<div class="categories">
-<button class="active" data-cat="all">همه</button>
-<button data-cat="creatures">👾 موجودات</button>
-<button data-cat="fantasy">🐉 فانتزی</button>
-<button data-cat="nature">🌳 طبیعت</button>
-<button data-cat="buildings">🏠 سازه‌ها</button>
-<button data-cat="vehicles">🚗 وسایل نقلیه</button>
-<button data-cat="horror">👻 ترسناک</button>
-</div>
-
-<div class="cards" id="cards">
-
-<article class="card" data-cat="creatures">
-<div class="picture">👾</div>
-<span class="tag">موجودات و هیولاها</span>
-<h3>دنیای موجودات</h3>
-<p>افزونه‌ای با موجودات تازه برای تجربه ماجراجویی‌های متفاوت در ماینکرافت.</p>
-<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
-</article>
-
-<article class="card" data-cat="fantasy">
-<div class="picture">🐉</div>
-<span class="tag">اژدها و فانتزی</span>
-<h3>دنیای اژدهاها</h3>
-<p>ماجراجویی در دنیایی فانتزی با ایده‌هایی درباره اژدها و موجودات افسانه‌ای.</p>
-<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
-</article>
-
-<article class="card" data-cat="nature">
-<div class="picture">🌲</div>
-<span class="tag">طبیعت و محیط‌ها</span>
-<h3>طبیعت شگفت‌انگیز</h3>
-<p>ایده‌هایی برای تغییر محیط، طبیعت و زیست‌بوم‌های بازی.</p>
-<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
-</article>
-
-<article class="card" data-cat="buildings">
-<div class="picture">🏰</div>
-<span class="tag">سازه‌ها و ساختمان‌ها</span>
-<h3>شهرهای جدید</h3>
-<p>ساختمان‌ها و سازه‌های آماده برای ساخت دنیایی متفاوت.</p>
-<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
-</article>
-
-<article class="card" data-cat="vehicles">
-<div class="picture">🚙</div>
-<span class="tag">وسایل نقلیه</span>
-<h3>ماشین‌های جدید</h3>
-<p>ایده‌هایی برای اضافه‌کردن وسایل نقلیه به دنیای ماینکرافت.</p>
-<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
-</article>
-
-<article class="card" data-cat="horror">
-<div class="picture">👻</div>
-<span class="tag">ترسناک</span>
-<h3>شب‌های ترسناک</h3>
-<p>تجربه‌ای هیجان‌انگیز با فضای تاریک و موجودات ترسناک.</p>
-<a href="https://mcpedl.com/" target="_blank" rel="noopener">مشاهده افزونه‌ها</a>
-</article>
-
-</div>
-<p class="empty" id="empty">چیزی پیدا نشد! 😕</p>
-</main>
-
-<section class="container" id="about">
-<h2>💜 درباره Cool Games</h2>
-<p>ما در Cool Games بازی‌ها و افزونه‌های جذاب را معرفی می‌کنیم. هدف ما پیدا کردن تجربه‌های تازه برای گیمرهاست!</p>
-</section>
-
-<footer>
-<p>© Cool Games | ساخته‌شده برای گیمرها 🎮</p>
-</footer>
-
-<script>
-const search=document.getElementById('search');
-const cards=[...document.querySelectorAll('.card')];
-const buttons=[...document.querySelectorAll('.categories button')];
-let category='all';
-
-function filterCards(){
- const q=search.value.trim().toLowerCase();
- let count=0;
- cards.forEach(card=>{
-  const matchCategory=category==='all'||card.dataset.cat===category;
-  const matchText=card.innerText.toLowerCase().includes(q);
-  const show=matchCategory&&matchText;
-  card.style.display=show?'block':'none';
-  if(show)count++;
- });
- document.getElementById('empty').style.display=count?'none':'block';
-}
-buttons.forEach(btn=>{
- btn.addEventListener('click',()=>{
-  category=btn.dataset.cat;
-  buttons.forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  filterCards();
- });
-});
-search.addEventListener('input',filterCards);
-</script>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cool Games</title>
-<style>
-*{box-sizing:border-box;scroll-behavior:smooth}
-body{
- margin:0;background:#080817;color:#fff;
- font-family:Tahoma,Arial,sans-serif;
-}
-header{
- min-height:430px;padding:70px 20px 55px;
- text-align:center;
- display:flex;flex-direction:column;
- align-items:center;justify-content:center;
- background:
- radial-gradient(circle at 20% 30%,#5425a9 0,transparent 35%),
- radial-gradient(circle at 80% 70%,#123f91 0,transparent 40%),
- linear-gradient(135deg,#100b29,#080817);
- border-bottom:1px solid #8055ef;
-}
-.logo{
- font-size:42px;font-weight:bold;color:#d7c4ff;
- text-shadow:0 0 12px #8b5cf6,0 0 30px #6633cc;
-}
-header p{color:#ddd;line-height:2}
-.main-button{
- display:inline-block;margin-top:18px;
- padding:14px 25px;border-radius:12px;
- background:linear-gradient(90deg,#763de2,#2765d8);
- color:white;text-decoration:none;font-weight:bold;
- box-shadow:0 0 22px #6336c9;
-}
-nav{
  position:sticky;top:0;z-index:10;
- display:flex;justify-content:center;gap:25px;
- padding:16px;background:#111126;
- border-bottom:1px solid #37305c;
+ background:#090b18ed;
+ border-bottom:1px solid #252a48;
+ backdrop-filter:blur(14px);
 }
-nav a{color:#d2bdff;text-decoration:none;font-size:14px}
-.container{max-width:1050px;margin:auto;padding:30px 18px}
-h2{color:#c4a5ff;text-shadow:0 0 12px #7546cc}
-.intro{color:#bbb;line-height:2}
-.cards{
- display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
- gap:17px;margin-top:20px;
+.nav{
+ display:flex;align-items:center;
+ justify-content:space-between;
+ gap:16px;padding:12px 0;
 }
-.card{
- background:linear-gradient(145deg,#191932,#101020);
- border:1px solid #39305e;border-radius:16px;
- padding:18px;transition:.2s;
+.brand{
+ display:flex;align-items:center;gap:10px;
+ direction:ltr;font-weight:900;
 }
-.card:hover{
- transform:translateY(-5px);
- border-color:#a78bfa;
- box-shadow:0 0 20px #5533a455;
+.cg{
+ width:43px;height:43px;
+ display:grid;place-items:center;
+ border-radius:13px;
+ background:linear-gradient(135deg,#b14cff,#287bff);
+ color:white;font-size:19px;
+ box-shadow:0 0 22px #7546cc88;
 }
-.picture{
- height:130px;border-radius:12px;
- display:flex;align-items:center;justify-content:center;
- font-size:55px;
- background:linear-gradient(135deg,#35206a,#173e70);
- margin-bottom:15px;
+.brand-name{font-size:1.1rem}
+.brand-name span{color:var(--cyan)}
+nav{display:flex;gap:15px;flex-wrap:wrap;color:var(--muted);font-size:.9rem}
+nav a:hover{color:var(--cyan)}
+
+.hero{
+ padding:55px 0 35px;
+ display:grid;grid-template-columns:1.1fr .9fr;
+ gap:28px;align-items:center;
 }
-.card h3{color:#d1baff}
-.card p{color:#c5c5d4;font-size:14px;line-height:2}
+.eyebrow{color:var(--cyan);font-weight:bold}
+h1{font-size:clamp(2.1rem,6vw,4rem);line-height:1.3}
+.gradient{
+ background:linear-gradient(90deg,var(--cyan),var(--purple),var(--pink));
+ -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero p,.muted{color:var(--muted)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.btn{
+ display:inline-flex;align-items:center;justify-content:center;
+ border:1px solid var(--line);border-radius:12px;
+ padding:10px 16px;font-weight:bold;
+ background:var(--panel2);color:var(--text);
+ cursor:pointer;transition:.2s;
+}
+.btn.primary{
+ background:linear-gradient(100deg,#55dff5,#a78bfa);
+ color:#090b18;border:0;
+}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.1)}
+.small{font-size:.82rem;padding:7px 10px}
+.hero-art{
+ min-height:280px;border-radius:28px;
+ border:1px solid #34365f;
+ background:radial-gradient(circle at 50% 45%,#3b2b79,#17132f 52%,#10182e);
+ display:grid;place-items:center;position:relative;overflow:hidden;
+}
+.hero-art:before,.hero-art:after{
+ content:"";position:absolute;width:250px;height:250px;
+ border:2px solid #55e7ff66;border-radius:50%;
+}
+.hero-art:after{
+ width:310px;height:100px;
+ border-color:#ff62c088;transform:rotate(-28deg);
+}
+.hero-mark{
+ z-index:1;font-size:8rem;font-weight:1000;
+ direction:ltr;letter-spacing:-8px;
+ background:linear-gradient(140deg,#fff,#bd8cff 48%,#49caff);
+ -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero-caption{
+ position:absolute;bottom:15px;z-index:2;
+ letter-spacing:4px;font-weight:900;direction:ltr;
+}
+.stats{
+ display:grid;grid-template-columns:repeat(3,1fr);
+ gap:12px;margin:8px 0 30px;
+}
+.stat{
+ background:#11152acc;border:1px solid var(--line);
+ border-radius:16px;padding:13px;text-align:center;
+}
+.stat strong{display:block;font-size:1.3rem;color:var(--cyan)}
+.stat span{font-size:.82rem;color:var(--muted)}
+
+section{padding:20px 0 35px;scroll-margin-top:85px}
+.section-head{margin-bottom:17px}
+.section-head h2{margin:0;font-size:1.65rem}
+.section-head p{margin:3px 0;color:var(--muted);font-size:.9rem}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}
+.search{
+ flex:1;min-width:210px;background:var(--panel);
+ border:1px solid var(--line);border-radius:12px;
+ color:var(--text);padding:12px;outline:none;
+}
+.search:focus{border-color:var(--cyan)}
+.filters{display:flex;gap:8px;flex-wrap:wrap}
+.filter{
+ background:var(--panel);color:var(--muted);
+ border:1px solid var(--line);padding:8px 12px;
+ border-radius:999px;cursor:pointer;font-size:.84rem;
+}
+.filter.active,.filter:hover{
+ background:#202b50;color:var(--cyan);border-color:#5264a4;
+}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.game{
+ background:linear-gradient(160deg,#151a33,#0f1224);
+ border:1px solid var(--line);border-radius:18px;
+ overflow:hidden;display:flex;flex-direction:column;
+ transition:.2s;
+}
+.game:hover{transform:translateY(-4px);border-color:#5868a8}
+.cover{
+ height:175px;
+ background-image:url("cool-games-art.png");
+ background-size:400% 200%;
+ background-repeat:no-repeat;
+}
+.dragon{background-position:0 0}
+.creatures{background-position:33.333% 0}
+.nature{background-position:66.666% 0}
+.buildings{background-position:100% 0}
+.town{background-position:0 100%}
+.fashion{background-position:33.333% 100%}
+.obby{background-position:66.666% 100%}
+.horror{background-position:100% 100%}
+.game-body{
+ padding:15px;display:flex;flex-direction:column;
+ gap:8px;flex:1;
+}
+.game h3{margin:0;font-size:1.1rem}
 .tag{
- display:inline-block;color:#c4a5ff;
- background:#34245b;padding:6px 10px;
- border-radius:20px;font-size:11px;
+ display:inline-block;width:max-content;
+ border:1px solid #38436e;background:#202746;
+ color:#cbd5ff;border-radius:999px;
+ padding:2px 9px;font-size:.75rem;
 }
-.detail-button{
- display:inline-block;margin-top:10px;
- padding:10px 14px;background:#6540b7;
- color:white;text-decoration:none;border-radius:9px;
- font-size:13px;
+.game p{margin:0;color:var(--muted);font-size:.88rem}
+.game-foot{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:8px}
+.empty{
+ grid-column:1/-1;text-align:center;
+ padding:28px;color:var(--muted);
+ border:1px dashed var(--line);border-radius:16px;
 }
-.detail{
- margin-top:28px;padding:22px;
- border:1px solid #42336e;border-radius:15px;
- background:#121225;line-height:2;
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.feature-box,.form-box{
+ border:1px solid var(--line);
+ border-radius:18px;background:var(--panel);padding:20px;
 }
-.detail h3{color:#c4a5ff}
-.status{color:#ffcf79;font-size:13px}
-.divider{height:1px;background:#33294f;margin:35px 0}
+.feature-box li,.feature-box p{color:var(--muted)}
+.feature-box ul{padding-right:20px}
+label{display:block;margin:10px 0 5px;color:#dce2ff;font-size:.9rem}
+input,select,textarea{
+ width:100%;background:#090d1d;
+ border:1px solid var(--line);color:var(--text);
+ border-radius:10px;padding:10px;
+}
+textarea{min-height:90px;resize:vertical}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.note{font-size:.8rem;color:var(--muted)}
+.notice{
+ font-size:.82rem;color:#f5d38a;
+ background:#3a2c1a66;border:1px solid #71532a;
+ border-radius:12px;padding:10px;
+}
 footer{
- text-align:center;padding:30px;color:#999;
- background:#101020;border-top:1px solid #33294f;
+ border-top:1px solid #252a48;margin-top:20px;
+ padding:24px 0;color:var(--muted);font-size:.85rem;
+}
+.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.modal{
+ position:fixed;inset:0;z-index:30;
+ background:#000b;display:none;place-items:center;padding:16px;
+}
+.modal.open{display:grid}
+.modal-card{
+ width:min(580px,100%);max-height:85vh;overflow:auto;
+ background:#11152a;border:1px solid #5868a8;
+ border-radius:20px;padding:22px;
+}
+.modal-card p{color:var(--muted)}
+.close{float:left}
+@media(max-width:800px){
+ .hero{grid-template-columns:1fr;padding-top:35px}
+ .grid{grid-template-columns:repeat(2,1fr)}
+ .feature{grid-template-columns:1fr}
+}
+@media(max-width:520px){
+ .nav{align-items:flex-start;flex-direction:column}
+ .grid{grid-template-columns:1fr}
+ .cover{height:190px}
+ .form-grid{grid-template-columns:1fr}
+ .stats{gap:7px}
 }
 </style>
 </head>
 
 <body>
-
-<header id="home">
-<div class="logo">🎮 COOL GAMES</div>
-<h1>دنیای بازی‌ها و ماجراجویی‌ها</h1>
-<p>بازی‌های جذاب Roblox و افزونه‌های هیجان‌انگیز Minecraft</p>
-<a class="main-button" href="#minecraft-addons">
-🚀 شروع ماجراجویی
-</a>
+<header>
+ <div class="wrap nav">
+  <a class="brand" href="#home">
+   <span class="cg">CG</span>
+   <span class="brand-name">COOL <span>GAMES</span></span>
+  </a>
+  <nav>
+   <a href="#home">خانه</a>
+   <a href="#roblox">روبلاکس</a>
+   <a href="#minecraft">ماینکرافت</a>
+   <a href="#submit">افزودن معرفی</a>
+   <a href="#about">درباره ما</a>
+  </nav>
+ </div>
 </header>
 
-<nav>
-<a href="#home">صفحه اصلی</a>
-<a href="#roblox">Roblox</a>
-<a href="#minecraft-addons">Minecraft</a>
-<a href="#about">درباره ما</a>
-</nav>
+<main class="wrap">
+<section class="hero" id="home">
+ <div>
+  <div class="eyebrow">🎮 PLAY • DISCOVER • EXPLORE</div>
+  <h1>به دنیای <span class="gradient">COOL GAMES</span> خوش اومدی!</h1>
+  <p>بازی‌های جذاب Roblox و افزونه‌های Minecraft Bedrock رو کشف کن. ماجراجویی بعدی تو از اینجا شروع می‌شه.</p>
+  <div class="actions">
+   <a class="btn primary" href="#roblox">🎮 کشف روبلاکس</a>
+   <a class="btn" href="#minecraft">⛏️ مودهای ماینکرافت</a>
+  </div>
+ </div>
+ <div class="hero-art">
+  <div class="hero-mark">CG</div>
+  <div class="hero-caption">COOL GAMES</div>
+ </div>
+</section>
 
-<main class="container">
+<div class="stats">
+ <div class="stat"><strong id="gameCount">4</strong><span>بازی روبلاکس</span></div>
+ <div class="stat"><strong id="modCount">4</strong><span>دسته مود</span></div>
+ <div class="stat"><strong>∞</strong><span>ماجراجویی تازه</span></div>
+</div>
 
 <section id="roblox">
-<h2>🎲 دنیای Roblox</h2>
-<p class="intro">بازی‌های جذاب روبلاکس را کشف کن و ماجراجویی تازه‌ای شروع کن!</p>
-
-<div class="cards">
-<article class="card">
-<div class="picture">⚔️</div>
-<span class="tag">اکشن و رقابتی</span>
-<h3>Roblox Rivals</h3>
-<p>در نبردهای سریع و رقابتی مهارت خودت را امتحان کن.</p>
-</article>
-
-<article class="card">
-<div class="picture">🏡</div>
-<span class="tag">نقش‌آفرینی</span>
-<h3>Brookhaven</h3>
-<p>در یک شهر مجازی زندگی کن، خانه بساز و با دوستانت بازی کن.</p>
-</article>
-
-<article class="card">
-<div class="picture">👗</div>
-<span class="tag">سرگرمی و مد</span>
-<h3>Dress to Impress</h3>
-<p>با لباس‌ها و استایل‌های مختلف در مسابقه‌های جذاب شرکت کن.</p>
-</article>
-</div>
+ <div class="section-head">
+  <h2>🎮 دنیای Roblox</h2>
+  <p>بازی موردعلاقه‌ات رو پیدا کن و جزئیاتش رو بخون.</p>
+ </div>
+ <div class="tools">
+  <input class="search" id="robloxSearch" placeholder="🔍 جست‌وجوی بازی...">
+  <div class="filters" id="robloxFilters"></div>
+ </div>
+ <div class="grid" id="robloxGrid"></div>
+ <p class="note">تصاویر این بخش تصویرسازی هوش مصنوعی هستند، نه اسکرین‌شات رسمی بازی‌ها.</p>
 </section>
 
-<div class="divider"></div>
-
-<section id="minecraft-addons">
-<h2>⛏️ افزونه‌های Minecraft Bedrock</h2>
-<p class="intro">
-اینجا مجموعه‌ای از افزونه‌های مخصوص نسخه بدراک را معرفی می‌کنیم.
-برای هر افزونه، توضیحات و اطلاعات سازگاری جداگانه قرار می‌گیرد.
-</p>
-
-<div class="cards">
-
-<article class="card">
-<div class="picture">🐉</div>
-<span class="tag">اژدها و فانتزی</span>
-<h3>افزونه دنیای اژدها</h3>
-<p>معرفی افزونه‌های اژدها، موجودات افسانه‌ای و ماجراجویی فانتزی.</p>
-<a class="detail-button" href="#dragon">مشاهده جزئیات</a>
-</article>
-
-<article class="card">
-<div class="picture">👾</div>
-<span class="tag">موجودات و حیوانات</span>
-<h3>افزونه موجودات جدید</h3>
-<p>معرفی افزونه‌هایی با حیوانات و موجودات تازه در بازی.</p>
-<a class="detail-button" href="#creatures">مشاهده جزئیات</a>
-</article>
-
-<article class="card">
-<div class="picture">🌳</div>
-<span class="tag">طبیعت و محیط</span>
-<h3>افزونه طبیعت</h3>
-<p>محیط‌ها، گیاهان و زیست‌بوم‌های تازه برای دنیای بازی.</p>
-<a class="detail-button" href="#nature">مشاهده جزئیات</a>
-</article>
-
-<article class="card">
-<div class="picture">🏰</div>
-<span class="tag">ساختمان و سازه</span>
-<h3>افزونه سازه‌های جدید</h3>
-<p>ساختمان‌ها و سازه‌های تازه برای ساخت دنیای دلخواهت.</p>
-<a class="detail-button" href="#buildings">مشاهده جزئیات</a>
-</article>
-
-</div>
-
-<div class="detail" id="dragon">
-<h3>🐉 افزونه‌های اژدها و فانتزی</h3>
-<p>در این قسمت اطلاعات افزونه‌های واقعی اژدها، تصاویر و لینک صفحه سازنده قرار می‌گیرد.</p>
-<p class="status">⚠️ سازگاری با نسخه 1.26.67 هنوز تأیید نشده است.</p>
-</div>
-
-<div class="detail" id="creatures">
-<h3>👾 افزونه‌های موجودات</h3>
-<p>در این قسمت افزونه‌های حیوانات، هیولاها و موجودات جدید معرفی می‌شوند.</p>
-<p class="status">⚠️ سازگاری با نسخه 1.26.67 هنوز تأیید نشده است.</p>
-</div>
-
-<div class="detail" id="nature">
-<h3>🌳 افزونه‌های طبیعت</h3>
-<p>در این قسمت افزونه‌های جنگل، گیاهان و زیست‌بوم‌های جدید قرار می‌گیرند.</p>
-<p class="status">⚠️ سازگاری با نسخه 1.26.67 هنوز تأیید نشده است.</p>
-</div>
-
-<div class="detail" id="buildings">
-<h3>🏰 افزونه‌های ساختمان و سازه</h3>
-<p>در این قسمت افزونه‌های خانه، شهر و ساختمان‌های آماده معرفی می‌شوند.</p>
-<p class="status">⚠️ سازگاری با نسخه 1.26.67 هنوز تأیید نشده است.</p>
-</div>
+<section id="minecraft">
+ <div class="section-head">
+  <h2>⛏️ مودهای Minecraft Bedrock</h2>
+  <p>دسته‌بندی مودها با تصویرهای سه‌بعدی اختصاصی.</p>
+ </div>
+ <div class="tools">
+  <input class="search" id="modSearch" placeholder="🔍 جست‌وجوی دسته مود...">
+  <div class="filters" id="modFilters"></div>
+ </div>
+ <div class="grid" id="modGrid"></div>
+ <p class="notice">نسخه Minecraft شما 1.26.67 است. سازگاری هر مود باید پیش از معرفی جداگانه بررسی شود.</p>
 </section>
 
-<div class="divider"></div>
-
-<section id="about">
-<h2>💜 درباره Cool Games</h2>
-<p class="intro">
-Cool Games جایی برای کشف بازی‌های جذاب Roblox و افزونه‌های Minecraft Bedrock است.
-هدف ما معرفی تجربه‌های تازه و سرگرم‌کننده برای گیمرهاست.
-</p>
+<section class="feature" id="about">
+ <div class="feature-box">
+  <h3>✨ درباره COOL GAMES</h3>
+  <ul>
+   <li>معرفی بازی‌های متنوع Roblox</li>
+   <li>معرفی افزونه‌های Minecraft Bedrock</li>
+   <li>تصاویر اختصاصی و توضیحات فارسی</li>
+   <li>صفحه جزئیات داخل خود سایت</li>
+  </ul>
+ </div>
+ <div class="feature-box">
+  <h3>🚀 شروع ماجراجویی</h3>
+  <p>از یکی از بخش‌های سایت شروع کن و بازی یا دسته مود موردعلاقه‌ات رو انتخاب کن.</p>
+  <div class="actions">
+   <a class="btn primary" href="#roblox">رفتن به Roblox</a>
+   <a class="btn" href="#minecraft">رفتن به Minecraft</a>
+  </div>
+ </div>
 </section>
 
+<section id="submit">
+ <div class="section-head">
+  <h2>✍️ معرفی بازی جدید</h2>
+  <p>می‌تونی بازی‌های جدید رو به فهرست همین مرورگر اضافه کنی.</p>
+ </div>
+ <div class="form-box">
+  <form id="gameForm">
+   <div class="form-grid">
+    <div>
+     <label for="gameName">نام بازی *</label>
+     <input id="gameName" required maxlength="60" placeholder="مثلاً: DOORS">
+    </div>
+    <div>
+     <label for="gameCategory">دسته‌بندی *</label>
+     <select id="gameCategory">
+      <option>ترسناک</option>
+      <option>اکشن</option>
+      <option>رقابتی</option>
+      <option>ماجراجویی</option>
+      <option>سرگرمی</option>
+      <option>اوبی و پارکور</option>
+      <option>نقش‌آفرینی</option>
+     </select>
+    </div>
+   </div>
+   <label for="gameEmoji">ایموجی کاور</label>
+   <input id="gameEmoji" value="🎮" maxlength="8">
+   <label for="gameDescription">توضیح کوتاه *</label>
+   <textarea id="gameDescription" required maxlength="500" placeholder="این بازی درباره چیه؟"></textarea>
+   <label for="gameUrl">لینک بازی Roblox (اختیاری)</label>
+   <input id="gameUrl" type="url" placeholder="https://www.roblox.com/games/...">
+   <div class="actions">
+    <button class="btn primary" type="submit">➕ اضافه کردن بازی</button>
+    <button class="btn" type="reset">پاک کردن فرم</button>
+   </div>
+   <p class="note">بازی‌های اضافه‌شده فعلاً فقط در همین مرورگر ذخیره می‌شوند.</p>
+  </form>
+ </div>
+</section>
+
+<section>
+ <div class="feature-box">
+  <h3>💡 ایده روز</h3>
+  <p id="dailyIdea">یک بازی کمتر شناخته‌شده روبلاکس پیدا کن و سه ویژگی جالبش رو معرفی کن.</p>
+  <button class="btn small" id="newIdea">🎲 ایده تازه</button>
+ </div>
+</section>
 </main>
 
 <footer>
-<p>© COOL GAMES | ساخته‌شده برای گیمرها 🎮</p>
+ <div class="wrap foot">
+  <span><b>COOL GAMES</b> — PLAY • DISCOVER • EXPLORE</span>
+  <span>ساخته‌شده برای گیمرها 🎮</span>
+ </div>
 </footer>
 
+<div class="modal" id="modal" role="dialog" aria-modal="true">
+ <div class="modal-card">
+  <button class="btn small close" id="closeModal">✕ بستن</button>
+  <span class="tag" id="modalTag"></span>
+  <h2 id="modalTitle"></h2>
+  <p id="modalDescription"></p>
+  <p class="notice" id="modalNote"></p>
+  <a class="btn primary" id="modalLink" target="_blank" rel="noopener" style="display:none">🎮 باز کردن بازی</a>
+ </div>
+</div>
+
+<script>
+const seedGames=[
+ {id:"r1",name:"Brookhaven RP",category:"نقش‌آفرینی",emoji:"🏡",cover:"town",description:"در یک شهر مجازی خانه انتخاب کن، با دوستانت نقش‌آفرینی کن و داستان‌های خودت رو بساز.",url:""},
+ {id:"r2",name:"Dress to Impress",category:"سرگرمی",emoji:"👗",cover:"fashion",description:"برای موضوع‌های مختلف استایل بساز، لباس‌ها رو ترکیب کن و در مسابقه‌های مد شرکت کن.",url:""},
+ {id:"r3",name:"Tower of Hell",category:"اوبی و پارکور",emoji:"🧗",cover:"obby",description:"از مسیرهای مانع‌دار عبور کن و با تمرین به پایان مسیر برس.",url:""},
+ {id:"r4",name:"DOORS",category:"ترسناک",emoji:"🚪",cover:"horror",description:"در راهروها و اتاق‌های مرموز پیش برو و مراقب اتفاق‌های غیرمنتظره باش.",url:""}
+];
+
+const modItems=[
+ {id:"m1",name:"دنیای اژدهاها",category:"فانتزی",cover:"dragon",description:"دسته‌ای برای افزونه‌هایی با اژدهاها و موجودات افسانه‌ای.",note:"افزونه مشخصی هنوز اضافه نشده است. سازگاری هر مود باید بررسی شود."},
+ {id:"m2",name:"موجودات و حیوانات",category:"موجودات",cover:"creatures",description:"افزونه‌هایی که حیوانات و موجودات تازه به بازی اضافه می‌کنند.",note:"افزونه مشخصی هنوز اضافه نشده است. سازگاری هر مود باید بررسی شود."},
+ {id:"m3",name:"طبیعت شگفت‌انگیز",category:"طبیعت",cover:"nature",description:"جنگل‌ها، گیاهان، آبشارها و زیست‌بوم‌های تازه.",note:"افزونه مشخصی هنوز اضافه نشده است. سازگاری هر مود باید بررسی شود."},
+ {id:"m4",name:"سازه‌ها و شهرها",category:"سازه‌ها",cover:"buildings",description:"ساختمان‌ها، قلعه‌ها و سازه‌های تازه برای دنیای بازی.",note:"افزونه مشخصی هنوز اضافه نشده است. سازگاری هر مود باید بررسی شود."}
+];
+
+const ideas=[
+ "یک بازی کمتر شناخته‌شده روبلاکس پیدا کن و سه ویژگی جالبش رو معرفی کن.",
+ "یک بازی پارکور انتخاب کن و مسیرش رو از نظر سختی بررسی کن.",
+ "دو بازی روبلاکس رو با هم مقایسه کن.",
+ "یک بازی ماجراجویی معرفی کن و هدف اصلیش رو توضیح بده.",
+ "یک مود ماینکرافت جالب پیدا کن و نسخه سازگارش رو بررسی کن."
+];
+
+function loadGames(){
+ try{
+  const saved=localStorage.getItem("coolGamesRoblox");
+  return saved?JSON.parse(saved):seedGames.slice();
+ }catch(e){return seedGames.slice();}
+}
+let games=loadGames();
+let activeRoblox="همه";
+let activeMods="همه";
+
+const $=id=>document.getElementById(id);
+
+function saveGames(){
+ try{localStorage.setItem("coolGamesRoblox",JSON.stringify(games));}
+ catch(e){alert("ذخیره‌سازی در این مرورگر ممکن نشد.");}
+}
+
+function safeText(value){
+ return String(value).replace(/[&<>"']/g,c=>({
+  "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+ }[c]));
+}
+
+function createCard(item,type){
+ const el=document.createElement("article");
+ el.className="game";
+ const cover=item.cover||"";
+ const emoji=item.emoji||"";
+ el.innerHTML=`
+  <div class="cover ${safeText(cover)}"></div>
+  <div class="game-body">
+   <span class="tag">${safeText(item.category)}</span>
+   <h3>${safeText(emoji)} ${safeText(item.name)}</h3>
+   <p>${safeText(item.description)}</p>
+   <div class="game-foot">
+    <button class="btn primary small" data-id="${safeText(item.id)}" data-type="${type}">📖 جزئیات</button>
+    ${type==="roblox"&&item.url?`<a class="btn small" href="${safeText(item.url)}" target="_blank" rel="noopener">🎮 ورود به بازی</a>`:""}
+   </div>
+  </div>`;
+ return el;
+}
+
+function renderFilters(items,boxId,active,onSelect){
+ const box=$(boxId);
+ box.innerHTML="";
+ const cats=["همه",...new Set(items.map(x=>x.category))];
+ cats.forEach(cat=>{
+  const b=document.createElement("button");
+  b.className="filter"+(cat===active?" active":"");
+  b.textContent=cat;
+  b.type="button";
+  b.onclick=()=>onSelect(cat);
+  box.appendChild(b);
+ });
+}
+
+function renderList(items,gridId,searchId,category,type){
+ const grid=$(gridId);
+ const q=$(searchId).value.trim().toLowerCase();
+ const shown=items.filter(x=>
+  (category==="همه"||x.category===category)&&
+  (x.name+" "+x.category+" "+x.description).toLowerCase().includes(q)
+ );
+ grid.innerHTML="";
+ if(!shown.length){
+  grid.innerHTML='<div class="empty">چیزی پیدا نشد 😅</div>';
+  return;
+ }
+ shown.forEach(item=>grid.appendChild(createCard(item,type)));
+ grid.querySelectorAll("[data-id]").forEach(btn=>{
+  btn.onclick=()=>openDetails(btn.dataset.id,btn.dataset.type);
+ });
+}
+
+function refresh(){
+ renderFilters(games,"robloxFilters",activeRoblox,v=>{activeRoblox=v;refresh();});
+ renderFilters(modItems,"modFilters",activeMods,v=>{activeMods=v;refresh();});
+ renderList(games,"robloxGrid","robloxSearch",activeRoblox,"roblox");
+ renderList(modItems,"modGrid","modSearch",activeMods,"mods");
+ $("gameCount").textContent=games.length;
+ $("modCount").textContent=modItems.length;
+}
+
+function openDetails(id,type){
+ const item=(type==="roblox"?games:modItems).find(x=>x.id===id);
+ if(!item)return;
+ $("modalTag").textContent=item.category;
+ $("modalTitle").textContent=(item.emoji||"")+" "+item.name;
+ $("modalDescription").textContent=item.description;
+ $("modalNote").textContent=item.note||"";
+ const link=$("modalLink");
+ if(type==="roblox"&&item.url){
+  link.href=item.url;
+  link.style.display="inline-flex";
+ }else{
+  link.style.display="none";
+ }
+ $("modal").classList.add("open");
+}
+
+$("closeModal").onclick=()=>$("modal").classList.remove("open");
+$("modal").onclick=e=>{
+ if(e.target.id==="modal")$("modal").classList.remove("open");
+};
+document.addEventListener("keydown",e=>{
+ if(e.key==="Escape")$("modal").classList.remove("open");
+});
+
+$("robloxSearch").addEventListener("input",()=>{
+ renderList(games,"robloxGrid","robloxSearch",activeRoblox,"roblox");
+});
+$("modSearch").addEventListener("input",()=>{
+ renderList(modItems,"modGrid","modSearch",activeMods,"mods");
+});
+
+$("gameForm").addEventListener("submit",e=>{
+ e.preventDefault();
+ const name=$("gameName").value.trim();
+ const description=$("gameDescription").value.trim();
+ const url=$("gameUrl").value.trim();
+ if(!name||!description)return;
+ if(url&&!/^https:\/\/(www\.)?roblox\.com\/games\//i.test(url)){
+  alert("لطفاً لینک معتبر بازی Roblox وارد کن.");
+  return;
+ }
+ games.unshift({
+  id:"user-"+Date.now(),
+  name,
+  category:$("gameCategory").value,
+  emoji:$("gameEmoji").value.trim()||"🎮",
+  description,
+  url,
+  cover:""
+ });
+ saveGames();
+ $("gameForm").reset();
+ $("gameEmoji").value="🎮";
+ activeRoblox="همه";
+ $("robloxSearch").value="";
+ refresh();
+ $("roblox").scrollIntoView({behavior:"smooth"});
+});
+
+$("newIdea").onclick=()=>{
+ const old=$("dailyIdea").textContent;
+ const choices=ideas.filter(x=>x!==old);
+ $("dailyIdea").textContent=choices[Math.floor(Math.random()*choices.length)];
+};
+
+refresh();
+</script>
 </body>
 </html>
 
